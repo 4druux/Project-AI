@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediksi Kategori</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="asset/Css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Prediksi Kategori</h1>
+    </header>
+
+    <div class="container">
+      <h2>Masukkan Data</h2>
+      <form id="input">
+        <div class="input">
+          <label for="produk">Produk</label>
+          <input
+            type="text"
+            id="produk"
+            name="produk"
+            placeholder="Masukkan Nama Produk"
+            required
+          />
+        </div>
+
+        <div class="input">
+          <label for="jumlah">Jumlah</label>
+          <input
+            type="number"
+            id="jumlah"
+            name="jumlah"
+            placeholder="Masukkan Jumlah Terjual"
+            required
+          />
+        </div>
+
+        <div class="input">
+          <label for="harga">Harga Satuan</label>
+          <input
+            type="number"
+            id="harga"
+            name="harga"
+            placeholder="Masukkan Harga Satuan"
+            required
+          />
+        </div>
+
+        <div class="input">
+          <label for="total">Total Penjualan</label>
+          <input
+            type="number"
+            id="total"
+            name="total"
+            placeholder="Total Penjualan"
+            readonly
+          />
+        </div>
+
+        <div class="input">
+          <label for="kategori">Kategori Penjualan</label>
+          <input
+            type="text"
+            id="kategori"
+            name="kategori"
+            placeholder="Kategori Penjualan"
+            readonly
+          />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 All rights reserved by - ADZ Corp.</p>
+    </footer>
+
+    <!-- Link JS -->
+    <script src="asset/Js/main.js"></script>
+  </body>
+</html>
